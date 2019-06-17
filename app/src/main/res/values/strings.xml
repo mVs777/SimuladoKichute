@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Simulado</string>
+
+    <string-array name="Classes">
+        <item>    </item>>
+        <item>Mago</item>
+        <item>barbaro</item>
+        <item>guerreiro</item>
+    </string-array>
+
+</resources>

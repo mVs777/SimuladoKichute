@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="br.com.MarcusViniciusSimulado">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/kichute"
+            android:label="@string/app_name"
+            android:roundIcon="@drawable/kichute"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".JogandoActivity">
+        </activity>
+        <activity android:name=".JogoActivity">
+        </activity>
+        <activity
+                android:name=".MainActivity"
+                android:theme="@style/FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
